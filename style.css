@@ -76,12 +76,6 @@
     top: 3rem;
     z-index: 2;
 }
-@media screen and (max-width: 1000px)  {
-    .menubar{
-        flex-wrap: wrap;
-    }
-    
-}
 .admlogo{
     width: 28%;
     padding-left: 30px;
@@ -526,17 +520,19 @@
     background-color: black;
 
 }
-@media screen and (max-width: 600px) {
-    .menubar {
+
+@media screen and  (max-width: 600px) {
+   .header, .menubar {
+
         flex-direction: column;
-        
-    }
+        align-items: center;
+        text-align: center;
+        width: fit-content;
+        height: max-content;
 
-    .menulink {
-        padding: 10px;
     }
-
-    .cmpcontainer {
+    .admlogo>img{
         height: auto;
+        width: 100%;
     }
 }
