@@ -410,6 +410,7 @@
     margin-top: 2.5rem;
     margin-left: 5.5rem;
 }
+
 .rescontainer p{
     width: 87%;
     text-align: center;
@@ -435,13 +436,7 @@
     margin-left: 6%;
     text-align: center;
 }
-@media screen and (max-width: 1000px){
-    .advantage{
-        display: flex;
-        padding-top: 30px;
-        font-size: 10px;
-    }
-}
+
 .testimonial{
     height: 90em;
     width: 100%;
