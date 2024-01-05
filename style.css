@@ -531,6 +531,16 @@
         height: max-content;
 
     }
+    .socialMedia{
+        margin-top: 5px;
+    }
+    .login{
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
     .admlogo>img{
         height: auto;
         width: 100%;
